@@ -244,8 +244,11 @@ margin-top: 0px;
         height: 80px;
     }
     .list-item ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;    
+        gap: 15px;
     }
     .list-item ul{
         margin-right: 50px;
@@ -268,6 +271,24 @@ margin-top: 0px;
     .hero-section{
         padding: 30px;
         box-sizing: border-box;
+    }
+    .social-link {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .text-parent{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .img-content img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
     }
     
 }
