@@ -71,6 +71,7 @@ margin-top: 0px;
     font-family: Merienda, sans-serif;
     border-radius: 30px;
     cursor: pointer;
+    margin-bottom: 40px;
     font-size: 16px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -155,10 +156,13 @@ margin-top: 0px;
     color: rgb(215, 6, 10);
 }
 .banar-img img{
-    width: 100%;
+    width: 124%;
     height: 100%;
-    margin-bottom: -4px;
     padding-bottom: 0px;
+margin: 0px 0px -60px -71px;
+    display: block;
+    display: flex;
+    justify-content: end;
     color:linear-gradient(rgba(247, 184, 242, 0), rgba(38, 37, 37, 0.74));
 }
 
@@ -288,7 +292,7 @@ margin-top: 0px;
     .img-content img {
         width: 100%;
         height: auto;
-        margin-bottom: 20px;
+        
     }
     
 }
