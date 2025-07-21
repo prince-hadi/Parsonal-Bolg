@@ -25,7 +25,7 @@ body {
     background-color: #f9ecf79a;
 }
 .container{
-    width: 90%;
+    max-width: 85%;
     margin: 0 auto;
     margin-top: 90px;
 
@@ -71,7 +71,7 @@ margin-top: 0px;
     font-family: Merienda, sans-serif;
     border-radius: 30px;
     cursor: pointer;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-size: 16px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -142,7 +142,7 @@ margin-top: 0px;
     font-size: 1em;
     color: #0616475c;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 #Portfolio{
@@ -156,14 +156,15 @@ margin-top: 0px;
     color: rgb(215, 6, 10);
 }
 .banar-img img{
-    width: 124%;
+    width: 100%;
     height: 100%;
     padding-bottom: 0px;
-margin: 0px 0px -60px -71px;
+    margin-bottom: -108px;
     display: block;
-    display: flex;
-    justify-content: end;
     color:linear-gradient(rgba(247, 184, 242, 0), rgba(38, 37, 37, 0.74));
+}
+#btn-p{
+    margin-bottom: 30px;
 }
 
 .about-title{
@@ -184,6 +185,7 @@ margin: 0px 0px -60px -71px;
     font-family: inter;
     margin-bottom: 20px;
 }
+
 .line{
     width: 80px;
     border: 1px solid coral;
@@ -192,7 +194,7 @@ margin: 0px 0px -60px -71px;
 .about-content h1{
 }
 .about-content h1{
-    font-size: 1.5em;
+    font-size: 2em;
     color: #061647e3;
     font-weight: 600;
     margin-bottom: 15px;
@@ -206,7 +208,7 @@ margin: 0px 0px -60px -71px;
     justify-content: space-between;
     gap: 40px;
     flex: 1;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: inter;
     width: 75%;
 }
@@ -243,7 +245,7 @@ margin: 0px 0px -60px -71px;
         align-items: center;
     }
 .header{
-    height: 145vh;
+    /* height: 136vh; */
 }
     .logo img {
         margin-right: 25px;
@@ -275,6 +277,11 @@ margin: 0px 0px -60px -71px;
     .banar-text p {
         font-size: 0.9em;
     }
+   #banner-image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: -33px;
+    }
     .hero-section{
         padding: 30px;
         box-sizing: border-box;
@@ -297,5 +304,42 @@ margin: 0px 0px -60px -71px;
         height: auto;
         
     }
-    
+    .btn{
+        margin-bottom: 0px;
+    }
+ 
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .hero-section, .text-parent{
+       flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        width: 100%;
+        height: auto;
+        margin-bottom: -60px;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .social-link {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    #banner-image img {
+        width: 100%;
+        height: auto;
+        margin-bottom: -18px;
+    }
+    .img-content img {
+        width: 100%;
+        height: auto;
+     
+    }
+    .btn{
+        margin-bottom: 0px;
+    }
+
 }
