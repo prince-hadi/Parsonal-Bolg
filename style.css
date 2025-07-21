@@ -242,6 +242,9 @@ margin: 0px 0px -60px -71px;
         flex-direction: column;
         align-items: center;
     }
+.header{
+    height: 145vh;
+}
     .logo img {
         margin-right: 25px;
         width: 80px;
@@ -288,7 +291,7 @@ margin: 0px 0px -60px -71px;
         align-items: center;
         width: 100%;
     }
-
+   
     .img-content img {
         width: 100%;
         height: auto;
